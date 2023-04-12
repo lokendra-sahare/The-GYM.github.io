@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background: url(img/GYM.jpg);
+    width: 100vw;
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0.5rem solid #ec4141;
+    border-bottom: 0.5rem solid #ec4141;
+}
+
+nav {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 90px;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: white;
+    height: 90px;
+}
+
+nav .logo h1 {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+nav .logo span {
+    color: #ec4141;
+    padding-left: 11px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+    height: 90px;
+}
+
+nav ul li a {
+    padding: 1rem 1.4rem;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #ec4141;
+    border-bottom: 3px solid #ec4141;
+}
+
+nav ul li a:hover {
+    color: #ec4141;
+    border-bottom: 3px solid #ec4141;
+}
+
+.header-container {
+    /* border: 2px solid red; */
+    color: white;
+    width: 40%;
+    font-size: 23px;
+    position: relative;
+    top: 25%;
+    left: 2rem;
+    font-family: sans-serif;
+}
+
+.header-container .border-bottom {
+    border-bottom: 3px solid #ec4141;
+    padding-bottom: 2px;
+}
+
+.text-primary{
+    color: #ec4141;
+}
+
+.header-container p{
+    margin-top: 25px;
+    width: 68%;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 0.7rem 1.2rem;
+    outline: none;
+    border: 2px solid white;
+}
+
+.btn-primary{
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    background: transparent;
+    margin-top: 3rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #ec4141;
+    border: 2px solid #ec4141;
+    transition: 0.5s;
+}
